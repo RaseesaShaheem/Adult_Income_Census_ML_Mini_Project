@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request,redirect, url_for, flash
 import pickle
 import numpy as np
 import pandas as pd
@@ -71,7 +71,7 @@ def predict():
 
            predicted_data = model.predict(final_scaled)
            output = "greater than 50" if predicted_data[0] == 1 else "less than or equal to 50"
-           return render_template('index.html',prediction_text=f'Predicted Income: {output}')
+           return render_template('output.html',prediction_text=f'Predicted Income: {output}')
         
         except Exception as e:
             print("Error:", e)
