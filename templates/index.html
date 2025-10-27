@@ -197,8 +197,10 @@
       </form>
       <!-- Display prediction -->
         {% if prediction_text %}
-            <h2>{{ prediction_text }}</h2>
-        {% endif %}
+<script>
+    alert("{{ prediction_text }}");
+</script>
+{% endif %}
     </div>
 
 </body>

@@ -70,7 +70,7 @@ def predict():
 
 
            predicted_data = model.predict(final_scaled)
-           output = ">50K" if predicted_data[0] == 1 else "<=50K"
+           output = "greater than 50" if predicted_data[0] == 1 else "less than or equal to 50"
            return render_template('index.html',prediction_text=f'Predicted Income: {output}')
         
         except Exception as e:
