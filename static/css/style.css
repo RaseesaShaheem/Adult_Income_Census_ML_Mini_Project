@@ -1,0 +1,31 @@
+body {
+     background-repeat:no-repeat;       /* repeat the image */
+    background-size: cover;           /* keeps original size, or use 'cover' */
+    background-position: top left;   /* starting position */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 450px;
+    background: #e0b4b4;
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    background-color: #f9f9f9;
+}
+
+button:hover {
+    background-color: #005fcc;
+    transform: scale(1.02);
+}
