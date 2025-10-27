@@ -26,11 +26,22 @@ The main objective of this project is to develop an accurate and efficient class
 
 ## Project Structure
 ├── static
+
 │   ├── css
+
 │   │   └── style.css
+
 ├── templates
+
 │   └── index.html
+
 ├── app.py
+
 ├── model.py
+
 ├── README.md
+
+├──adult.csv
+
 └──Different pkl files
+
