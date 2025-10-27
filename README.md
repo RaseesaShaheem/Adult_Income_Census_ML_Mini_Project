@@ -33,11 +33,17 @@ The main objective of this project is to develop an accurate and efficient class
 
 │   ├── images  # Background images
 
-│   │   └──bg2.jpg  
+│   │   ├── adult_Webpage.png  #Output screenshot
+
+│   │   ├── adult_Webpage_prediction_output.png  #Output screenshot
+
+│   │   └── bg2.jpg  
 
 ├── templates
 
-│   └── index.html  # User input form
+│   ├── index.html  # User input form
+
+│   │   └── output.html #Prediction result
 
 ├── app.py   # Flask application
 
