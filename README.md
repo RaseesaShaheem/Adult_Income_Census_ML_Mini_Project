@@ -173,9 +173,13 @@ Predict income and display result on webpage
 
 ## Output
 
-- Provide user inputs and check predicted income category:
+- Provide user inputs and check predicted income category
+
+![Output Screenshot](static/images/adult_Webpage.png)
 
 - less than and equal or greater than to 50k
+
+![Output Screenshot](static/images/adult_Webpage_prediction_result.png)
 
 ## Author
 
